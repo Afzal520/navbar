@@ -4,8 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <h1>hello</h1> 
+   <div class="container">
+    
+    <div class="menu">
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">SERVICE</a>
+            <ul>
+                <li><a href="#">I PHONE</a></li>
+                <li><a href="#">MICROMAX</a></li>
+                <li><a href="#">NOKIA</a></li>
+                <li><a href="#">SUMSUNG</a></li>
+                <li><a href="#">REALME</a</li>
+                <li><a href="#">ONE PLUS</a></li>
+            </ul></li>
+            <li><a href="#">INFORMATION</a>
+            <ul>
+                <li><a href="#">USER GUIDE</a></li>
+                <li><a href="#">WARRANTY CARD</a></li>
+                <li><a href="#">REPLACEMENT METHOD</a></li>
+                <li><a href="#">REFUND METHOD</a></li>
+            </ul></li>
+            <li><a href="#">NOTES</a></li>
+            <li><a href="#">CONTACT US</a></li>
+            <li><a href="#">ABOUT</a></li>
+        </ul>
+       <div class="text"><p>Iternational Mobile</p><hr> 
+            <p> Repairing Centre</p></div><hr>
+        <form action="demo.html">
+        <div class="login">
+            <h1>Registered Here</h1>
+            <hr>
+           <p> User Name: </p><input type="text" name="" id="user"><br>
+           <span id="userr"></span>
+            <p>Password:</p> <input type="password" name="" id="pass">
+            <p>Email:</p><input type="email" name="" id="email">
+        </div>
+        <div class="btn">
+            <input type="submit" onclick=" return validate()" value="login">
+            <input type="reset" value="reset">
+        </div>
+        </form>
+
+
+    </div>
+
+   </div>
 </body>
 </html>
